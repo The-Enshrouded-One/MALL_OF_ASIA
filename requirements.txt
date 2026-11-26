@@ -1,0 +1,16 @@
+# Data pipeline (Floor Plans Image Processing, Parallelism, Web Scraping Data)
+numpy
+opencv-python
+matplotlib
+tqdm
+pandas
+
+# Unity data builders only need numpy + opencv-python (above).
+
+# OCR (GPU recommended; pulls in PyTorch)
+easyocr
+pytesseract        # also needs the Tesseract binary installed and on PATH
+
+# Web scraping
+selenium           # needs Google Chrome
+beautifulsoup4
